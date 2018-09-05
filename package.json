@@ -1,6 +1,6 @@
 {
   "name": "vue-accordions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A accordion component for vue.js",
   "main": "src/accordion/index.js",
   "scripts": {
@@ -12,6 +12,13 @@
     "accordion",
     "vue"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/yisibell/vue-accordions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yisibell/vue-accordions/issues"
+  },
   "author": "elenh",
   "license": "MIT",
   "devDependencies": {
