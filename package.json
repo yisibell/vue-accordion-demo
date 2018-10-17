@@ -1,6 +1,6 @@
 {
   "name": "vue-accordions",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A accordion component for vue.js",
   "main": "src/accordion/index.js",
   "scripts": {
