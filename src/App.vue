@@ -1,6 +1,6 @@
 <template>
   <div>
-    <accordion @jump="jumpTo" :w="800" :gap="60"/>
+    <ai-accordion @jump="jumpTo" :w="800" :gap="60"/>
   </div>
 </template>
 

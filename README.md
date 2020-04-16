@@ -1,18 +1,21 @@
-# vue-accordions
+# @aidol/vue-accordion
+
 A accordion component for vue.js
 
 ## Installation
+
 **Using npm**
 ``` bash
-npm install vue-accordions --save
+npm install @aidol/vue-accordion --save
 # or
-cnpm install vue-accordions --save
+cnpm install @aidol/vue-accordion --save
 ```
 ## Usage
+
 **In main.js**
 ``` js
 import Vue from 'vue'
-import accordion from 'vue-accordions'
+import accordion from '@aidol/vue-accordion'
 
 Vue.use(accordion)
 
@@ -20,7 +23,7 @@ Vue.use(accordion)
 ```
 
 ``` html
-<accordion :data="imgList" @jump="jumpTo"/>
+<ai-accordion :data="imgList" @jump="jumpTo"/>
 ```
 
 ``` js
@@ -50,10 +53,11 @@ export default {
 1. 在 `data` 属性中 （对象数组类型） ， 你必须为每个对象提供 `src` 属性 ，作为每张图片的地址。其他有用的数据，你可以视你所需去添加。
 
 ## Events
+
 **@jump**
 > 点击某张展示图片时触发句柄
 ``` html
-<accordion @jump="jumpTo"/>
+<ai-accordion @jump="jumpTo"/>
 ```
 
 ``` js
