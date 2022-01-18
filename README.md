@@ -1,26 +1,8 @@
-# @aidol/vue-accordion
+# vue-accordion-demo
 
 A accordion component for vue.js
 
-## Installation
-
-**Using npm**
-``` bash
-npm install @aidol/vue-accordion --save
-# or
-cnpm install @aidol/vue-accordion --save
-```
 ## Usage
-
-**In main.js**
-``` js
-import Vue from 'vue'
-import accordion from '@aidol/vue-accordion'
-
-Vue.use(accordion)
-
-// new Vue({ // ... })
-```
 
 ``` html
 <ai-accordion :data="imgList" @jump="jumpTo"/>
